@@ -1,0 +1,70 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "title": "Fallout 3",
+      "company": "BETHESDA",
+      "genre": [
+        "Action",
+        "Single-Player",
+        "FPS-TPS",
+        "Role-Playing"
+      ],
+      "description": "Set 200 years after the Great War, you play as the Lone Wanderer - a vault dweller from Vault 101. They'd lost their mother, Catherine, at a young age and were raised by their father, James, both of whom were scientists.Having spent all their life in the vault, the Wanderer has no idea what life outside its doors is like, aside from the grim warnings given by the vault's overseer about the dangers of leaving the safety it provides. But when James does just that on their 19th birthday, they get swept up in a mission to find him and learn why he had chosen to leave.",
+      "price": "55$"
+    },
+    {
+      "id": "2",
+      "title": "Borderlands 3",
+      "company": "2K GAMES",
+      "genre": [
+        "Action",
+        "Third-Person",
+        "Looter-Shooter",
+        "Multiplayer",
+        "Single-Player"
+      ],
+      "description": "The original shooter-looter returns, packing bazillions of guns and an all-new mayhem-fueled adventure! Blast through new worlds and enemies as one of four brand new Vault Hunters – the ultimate treasure-seeking badasses of the Borderlands, each with deep skill trees, abilities, and customization. Play solo or join with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
+      "price": "33.99$"
+    },
+    {
+      "id": "3",
+      "title": "GTA:V",
+      "company": "ROCKSTAR GAMES",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Open-World",
+        "Multiplayer"
+      ],
+      "description": "Welcome to Los Santos.When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.",
+      "price": "84.50$"
+    },
+    {
+      "title": "Far Cry 6",
+      "company": "UBISOFT",
+      "description": "jafcjajfkajfkafjkajfkajfkajfkafjkaj",
+      "price": "79.99",
+      "genre": [
+        "action",
+        "open-world",
+        "FPS",
+        "adventure"
+      ],
+      "id": "WwN1_LJ"
+    },
+    {
+      "title": "Assassin's Creed:Valhalla",
+      "company": "UBISOFT",
+      "description": "rwgGFRRRRRRRRRRRRRRRR",
+      "price": "59.99$",
+      "genre": [
+        "action",
+        "third-person",
+        "history",
+        "pegi 18"
+      ],
+      "id": "ig3OeJG"
+    }
+  ]
+}
