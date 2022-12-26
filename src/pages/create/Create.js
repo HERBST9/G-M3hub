@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
-import { useFetch } from '../../hooks/useFetch';
 import { useHistory} from 'react-router-dom'
 import './Create.css'
+import { projectFirestore } from '../../firebase/config'
+
 
 
 const Create = () => {
@@ -12,15 +13,22 @@ const Create = () => {
     const [ newGenre, setNewGenre] = useState('')
     const [genre, setGenre] = useState([])
     const genFocus = useRef(null)
-    const {postData, data, error} = useFetch('http://localhost:3000/games', "POST")
     const history = useHistory()
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault()
-         postData({
+         const doc = {
             title,company,description,price,genre
-         })
+         }
+
+         try {
+            await projectFirestore.collection('games').add(doc)
+            history.push('/')
+         } catch(e) {
+            console.log(e)
+
+         }
     }
 
 
@@ -34,12 +42,6 @@ const Create = () => {
         setNewGenre('')
         genFocus.current.focus()
     }
-
-    useEffect(() => {
-        if(data) {
-            history.push('/')
-        }
-    },[data])
 
 
 

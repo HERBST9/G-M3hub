@@ -27,3 +27,8 @@
     text-align: left;
     line-height: 1.5em;
   }
+  /* dark mode */
+.game.dark {
+  background: rgb(17, 17, 17);
+  color: #e4e4e4;
+}
